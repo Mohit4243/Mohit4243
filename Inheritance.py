@@ -17,10 +17,10 @@ class Cat(Animal):
 
 class Dog(Animal):
     def __init__(self, name):
-        super().__init__(name, "Woof")
+        super().__init__(name, "Bark")
 
     def make_sound(self):
-        print(f"{self.name} says Woof")
+        print(f"{self.name} says Bark")
 
 
 # Example usage:
